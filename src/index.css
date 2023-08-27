@@ -1,3 +1,70 @@
-h1 {
-    color: red;
+body {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    padding: 24;
+    background-color: white;
+  }
+
+.clock-container {
+      flex: 1;
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 30px;
+      margin-bottom: 100px;
+}
+
+.create-clock {
+      margin-bottom: 36PX;
+}
+
+.clock {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;    
+}
+
+.clock-buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock-button {
+    width: 20px;
+    height: 15px;
+    background-color: #008080;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.time-box {
+      display: flex;
+      background-color: white;
+      color: black;
+      padding: 20px 12px;
+      border: 4px solid #008080;
+      border-radius: 4px;
+      bottom: -20px; 
+      left: 50%;
+      font-size: 16px;
+}
+
+.timezone{
+      display: flex;
+      font-size: 18px;
+      color: white;
+      margin: 20px;
 }
